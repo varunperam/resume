@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 05px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+ .logo {
+    font-size: 2em;
+    font-weight: 700;
+    color:darkred; 
+    /* background-color:darkgray; */
+    border: 6px solid darkred;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+
+/* .logo p::first-letter{
+    color: seagreen;
+} */
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid darkred;
+    border-radius: 20px;
+}
+
+
+nav a:hover{
+    background-color: lightgray;
+}
+.nav-fc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 10px; */
+    height: 10vh;
+}
+
+ .hero-fc{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
+    height: 50vh;
+    background-color: bisque;
+    padding: 0px 30px;
+    border-radius: 30px;
+}
+
+.hero-fi{
+    align-content: center;
+    text-align: center;
+    max-height: 40vh;
+    /* margin: 0 auto; */
+}
+
+.hero-fi img{
+    border: 8px solid lightgrey;;
+    border-radius: 50%;
+    max-height: 40vh;
+    max-width:30vw;
+    min-width: 10vh;
+    /*  margin: 0 auto; */
+ }
+
+.profile-img{
+    flex-shrink: 0;
+    /* width: 50%; */
+    /* background-color: blueviolet; */
+    /* flex-shrink: .1; */
+}
+
+.designation{
+    color: grey;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.full-name{
+font-size: 50px;
+font-weight: 700;
+}
+
+.btn{
+    background-color:darkred;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    margin: 10px 5px;
+}
