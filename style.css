@@ -119,7 +119,7 @@ header {
     align-items: center;
     height: 50vh;
     background-color: #DC5F00;
-
+    margin-bottom: 5vh;
 }
 
 .hero-img img{
@@ -208,7 +208,7 @@ h2,p{
     justify-content: center;
     align-items: start;
     gap: 10px;
-    margin: 0px 5%;
+    margin: 0px 3%;
 }
 
 
