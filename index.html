@@ -33,7 +33,7 @@
     </header>
     <!-- Navigation -->
 
-<!-- hero section -->
+    <!-- hero section -->
     <section class="hero">
         <div class="hero-img">
             <img src="images/hero-image.png" alt="Profile Picture">
@@ -41,69 +41,138 @@
         <div class="hero-content">
             <p class="designation">Web Developer</p>
             <p class="full-name">Varun Peram</p>
-            <p class="breif">5 years 6 months of IT experience as a Web Developer and Oracle SCM techno functional consultant</p>
+            <p class="breif">5 years 6 months of IT experience as a Web Developer and Oracle SCM techno functional
+                consultant</p>
             <button class="btn">Download</button>
             <button class="btn">Get in Touch</button>
-         </div>
+        </div>
     </section>
 
 
 
     <main>
-      <!-- services -->
-    <h1 class="center-heading">Services</h1>
+        <!-- services -->
+        <h1 class="center-heading">Services</h1>
 
-    <section class="services">
+        <section class="services">
 
-        <div class="gi grid-item-1">
-            <div class="service-fc">
-                <div class="service-icon">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                </div>
-                <div class="service-content">
-                    <h2>Web Design</h2>
-                    <p>Adept at creating seamless UX and UI with creative designs that lean toward the functional and away from the overly artistic.</p>
+            <div class="gi grid-item-1">
+                <div class="service-fc">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+                    <div class="service-content">
+                        <h2>Web Design</h2>
+                        <p>Adept at creating seamless UX and UI with creative designs that lean toward the functional
+                            and away from the overly artistic.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="gi grid-item-2">
-            <div class="service-fc">
-                <div class="service-icon">
-                    <i class="fa-solid fa-code"></i>
-                </div>
-                <div class="service-content">
-                    <h2>Web Developer</h2>
-                    <p>Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions.</p>
+            <div class="gi grid-item-2">
+                <div class="service-fc">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h2>Web Developer</h2>
+                        <p>Solution-driven web developer adept at contributing to highly collaborative work environment
+                            and finding solutions.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="gi grid-item-3">
-            <div class="service-fc">
-                <div class="service-icon">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                </div>
-                <div class="service-content">
-                    <h2>Graphic Designer</h2>
-                    <p>Creative, independent and detail-oriented graphic designer with exceptional experience in logo design and layout design.</p>
+            <div class="gi grid-item-3">
+                <div class="service-fc">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <div class="service-content">
+                        <h2>Graphic Designer</h2>
+                        <p>Creative, independent and detail-oriented graphic designer with exceptional experience in
+                            logo design and layout design.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="gi grid-item-4">
-            <div class="service-fc">
-                <div class="service-icon">
-                    <i class="fa-solid fa-eye-dropper"></i>
-                </div>
-                <div class="service-content">
-                    <h2>Photoshop</h2>
-                    <p>Highly skilled in photo editing with a mastery of Adobe Creative cloud, particularly Photoshop and illustrator.</p>
+            <div class="gi grid-item-4">
+                <div class="service-fc">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-eye-dropper"></i>
+                    </div>
+                    <div class="service-content">
+                        <h2>Photoshop</h2>
+                        <p>Highly skilled in photo editing with a mastery of Adobe Creative cloud, particularly
+                            Photoshop, Lightroom and illustrator.</p>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- services -->
+
+        <!-- resume -->
+        <section class="resume">
+            <h1 class="center-heading">Resume</h1>
+
+
+            <div class="resume-fc">
+                <button id="workbtn1" class="tab-btn" onclick="fnResume('work')">Work Experience</button>
+                <button id="edubtn1" class="tab-btn" onclick="fnResume('edu')">Education</button>
+            </div>
+
+            <div id="work" class="resume-fi">
+                <table>
+                    <tr>
+                      <th>INYXA <br> 2017-Present</th>
+                      <th>Developer</th>
+                      <th>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea consequatur, assumenda eveniet
+                        aliquid minus consequuntur quisquam ad magni magnam dicta quos sequi tenetur aspernatur. Vero
+                        assumenda, id quos voluptate nulla repellendus iste, illo odit est culpa inventore distinctio
+                        earum.Nostrum culpa similique perspiciatis suscipit. Odit repellat iure quisquam obcaecati!</th>
+                    </tr>
+                  </table>
+
+            </div>
+            <div id="edu" class="resume-fi">
+                <table>
+                    <tr>
+                      <th>JNTUK <br> 2017-Present</th>
+                      <th>Bachelor's in Mechanical Engineering</th>
+                      <th>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea consequatur, assumenda eveniet
+                        aliquid minus consequuntur quisquam ad magni magnam dicta quos sequi tenetur aspernatur. Vero
+                        assumenda, id quos voluptate nulla repellendus.</th>
+                    </tr>
+                  </table>
+            </div>
+        </section>
+        <!-- resume -->
+
+
+<section class="contact">
+        <h1 class="center-heading">Contact Form</h1>
+
+        <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">United States</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
         </div>
     </section>
-    <!-- services -->
     </main>
 
     <footer>
